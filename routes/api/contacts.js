@@ -1,6 +1,5 @@
 const express = require('express');
 
-
 const ctrl = require('../../controlers/contacts');
 const { ctrlWrapper } = require('../../helpers');
 const { isValidId } = require('../../middlewares');
