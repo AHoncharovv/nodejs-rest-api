@@ -20,7 +20,6 @@ const updateAvatar = async (req, res) => {
         res.json({
             avatarURL
         })
-
     } catch (error) {
         await fs.unlink(req.file.path)
         throw error
